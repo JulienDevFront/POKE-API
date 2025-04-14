@@ -1,4 +1,4 @@
-const pokemons = [
+exports.pokemonsAPI = [
     {
      id: 1,
      name: "Bulbizarre",
@@ -107,6 +107,4 @@ const pokemons = [
      types: ["Feu"],
      created: new Date()
     }
-   ];
-     
-   module.exports = pokemons
+];
